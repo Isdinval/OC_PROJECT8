@@ -24,7 +24,7 @@ Dans le souci constant de rester à la pointe de l'innovation en matière de dat
 Fonctionnalités optionnelles:
 - Permettre de recalculer le score et la probabilité en modifiant les informations du client.
 - Intégrer un système de saisie de nouveaux dossiers clients.
-- 
+  
 ### Missions 2 : ETAT DE L'ART
 - Identifier une technique de modélisation de données texte ou d'images récente (moins de 5 ans) et publiée dans un article scientifique de référence.
 - Présenter la technique en s'appuyant sur des plateformes reconnues (Arxiv, fast.ai, Machine Learning Mastery, KDNuggets, Import AI, MIT Tech Review, MIT News ML) ou des newsletters de qualité (Data Elixir, Data Science Weekly).
