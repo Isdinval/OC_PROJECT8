@@ -8,28 +8,26 @@
   
 ## Contexte : 
 ### Contexte 1 : DASHBOARD
-Vous êtes Data Scientist au sein d'une société financière nommée Prêt à dépenser, qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt.
-Vous venez de mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, et classifier la demande en crédit accordé ou refusé. 
-Les chargés de relation client ont fait remonter le fait que les clients sont de plus en plus demandeurs de transparence vis-à-vis des décisions d’octroi de crédit. 
-Prêt à dépenser décide donc de développer un dashboard interactif pour que les chargés de relation client puissent expliquer de façon la plus transparente possible les décisions d’octroi de crédit, lors de rendez-vous avec eux. Cette volonté de transparence va tout à fait dans le sens des valeurs que l’entreprise veut incarner.
+Prêt à dépenser, société financière spécialisée dans le crédit à la consommation pour des profils peu ou pas bancarisés, est confrontée à un enjeu majeur de transparence vis-à-vis de ses clients. En effet, l'outil de "scoring crédit" mis en place, bien qu'efficace pour évaluer la solvabilité des emprunteurs, manque de clarté dans ses processus décisionnels. Face à une demande croissante d'explications de la part des clients, Prêt à dépenser souhaite développer un dashboard interactif dédié aux chargés de clientèle. Cet outil permettra de visualiser et d'expliquer en détail les facteurs ayant influencé l'octroi ou le refus d'un crédit, favorisant ainsi une meilleure compréhension et acceptation des décisions par les clients. Cette démarche s'inscrit pleinement dans les valeurs de transparence et de proximité que Prêt à dépenser souhaite véhiculer auprès de sa clientèle.
 
 ### Contexte 2 : ETAT DE L'ART
-Merci encore pour tout ce que tu as fait jusqu’à maintenant ! J’ai vu que tu as travaillé sur de nombreux sujets chez nous en plus de celui-ci, en particulier sur des problématiques de données texte (NLP) et de données d’images. 
-Tu sais que nous sommes soucieux de mettre en œuvre les dernières techniques en data science sur ces deux thématiques. Pourrais-tu réaliser un état de l’art sur une technique récente de modélisation de données texte ou de données image, l’analyser, la tester et la comparer à une approche plus classique que tu as réalisée précédemment ?
+Dans le souci constant de rester à la pointe de l'innovation en matière de data science, Place de Marché, reconnu pour son expertise en traitement du langage naturel (NLP) et en analyse d'images, souhaite explorer de nouvelles techniques de modélisation dans ces domaines. L'objectif est de réaliser une étude comparative approfondie entre une approche récente et une méthode classique déjà utilisée au sein de l'entreprise. Cette analyse permettra d'évaluer les performances respectives des deux techniques, en identifiant leurs points forts et leurs faiblesses. Les bénéfices attendus sont multiples : amélioration de la précision des modèles, gain de temps de traitement, optimisation des ressources, etc. En adoptant une démarche proactive d'exploration des nouvelles technologies,Place de Marché vise à maintenir son avance technologique et à proposer des solutions de data science toujours plus performantes et innovantes.
 
 ## Missions : 
 ### Missions 1 : DASHBOARD
-Voici les spécifications pour le dashboard interactif :
-- Permettre de visualiser le score, sa probabilité (est-il loin du seuil ?) et l’interprétation de ce score pour chaque client de façon intelligible pour une personne non experte en data science.
-- Permettre de visualiser les principales informations descriptives relatives à un client.
-- Permettre de comparer, à l’aide de graphiques, les principales informations descriptives relatives à un client à l’ensemble des clients ou à un groupe de clients similaires (via un système de filtre : par exemple, liste déroulante des principales variables).
-- Prendre en compte le besoin des personnes en situation de handicap dans la réalisation des graphiques, en couvrant des critères d'accessibilité du WCAG.
-- Déployer le dashboard sur une plateforme Cloud, afin qu'il soit accessible pour d'autres utilisateurs sur leur poste de travail.
-- Optionnellement (si tu as le temps) : Permettre d’obtenir un score et une probabilité rafraîchis après avoir saisi une modification d’une ou plusieurs informations relatives à un client, ainsi que de saisir un nouveau dossier client pour en obtenir le score et la probabilité.
+- Visualiser le score de crédit, sa probabilité et son interprétation de manière claire et accessible.
+- Afficher les informations descriptives clés du client.
+- Comparer les informations du client à celles d'autres clients via des graphiques accessibles.
+- Respecter les normes d'accessibilité WCAG pour les personnes en situation de handicap.
+- Déployer le dashboard sur une plateforme Cloud pour un accès multi-utilisateur.
 
+Fonctionnalités optionnelles:
+- Permettre de recalculer le score et la probabilité en modifiant les informations du client.
+- Intégrer un système de saisie de nouveaux dossiers clients.
+- 
 ### Missions 2 : ETAT DE L'ART
-Concrètement, voici ce que j’attends de ta part :
-- L’état de l’art devra concerner une technique datant de moins de 5 ans, présentée dans un article.
-- La technique doit être référencée sur des sites de recherche (Arxiv), des sites connus (par exemple fastml, machine learning mastery, kdnuggets, import AI, MIT tech review, MIT news ML) ou des newsletters de qualité comme data elixir et data science weekly.
-- Tu réaliseras et nous présenteras une preuve de concept qui met en oeuvre cette nouvelle technique avec les données texte ou image que tu as déjà exploitées précédemment.
-- Tu nous expliqueras rapidement les concepts et techniques dans une note méthodologique (modèle en pièce-jointe) et lors d’une présentation.
+- Identifier une technique de modélisation de données texte ou d'images récente (moins de 5 ans) et publiée dans un article scientifique de référence.
+- Présenter la technique en s'appuyant sur des plateformes reconnues (Arxiv, fast.ai, Machine Learning Mastery, KDNuggets, Import AI, MIT Tech Review, MIT News ML) ou des newsletters de qualité (Data Elixir, Data Science Weekly).
+- Développer et présenter une preuve de concept appliquant la technique sélectionnée aux données texte ou d'images déjà exploitées.
+- Rédiger une note méthodologique expliquant les concepts et techniques clés.
+- Présenter oralement la démarche et les résultats.
